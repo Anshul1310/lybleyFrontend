@@ -1,0 +1,29 @@
+.OrdersPage,
+.OrdersPageTable {
+    padding: 1rem;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+}
+
+.allOrders {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #bbb;
+    border-radius: 10px;
+}
+
+.viewOrderHead {
+    display: flex;
+    align-self: flex-start;
+    column-gap: 10px;
+    align-items: center;
+}
+
+.viewOrderHead a {
+    background: #e9ecef;
+    padding: 0.5rem 0.6rem;
+    border-radius: 50%;
+    color: #000;
+}

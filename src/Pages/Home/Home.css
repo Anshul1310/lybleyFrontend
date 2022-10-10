@@ -1,0 +1,80 @@
+.container1,
+.container2 {
+    padding: 0 0 1rem 0;
+    display: flex;
+    flex-direction: column;
+    float: right;
+    width: -webkit-fill-available;
+    /* width: 1108px; */
+}
+
+.container2 {
+    /* width: 1271px; */
+}
+
+.top_info {
+    display: flex;
+    padding: 1rem;
+}
+
+.charts {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: space-evenly;
+    padding: 1rem;
+}
+
+.app,
+.donut {
+    background: #cfe2ff7a;
+    border: 1px solid #bbb;
+    margin: 1rem 0.6rem;
+    border-radius: 10px;
+    width: 40vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1rem;
+}
+
+.container-lg img,
+.container-lg img {
+    height: 40px;
+    width: 48px;
+    border-radius: 10px;
+}
+
+.container-lg {
+    background-color: #cfe2ff;
+    border: 1px solid #bbb;
+    margin: 0 1rem;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.container-lg h2,
+.container-lg h2 {
+    color: #5e5e5e;
+}
+
+.container-lg p,
+.container-lg p {
+    color: #6c757d;
+    margin-bottom: 20px;
+}
+
+.container-lg p a,
+.container-lg p a {
+    color: #ff470d;
+    text-decoration: none;
+}
+
+.flex-container {
+    margin-bottom: 20px;
+}

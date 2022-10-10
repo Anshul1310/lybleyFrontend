@@ -1,0 +1,14 @@
+.staticProductsPage,
+.addStaticProductPage {
+    padding: 1rem;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+}
+
+.staticProducts {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+}
